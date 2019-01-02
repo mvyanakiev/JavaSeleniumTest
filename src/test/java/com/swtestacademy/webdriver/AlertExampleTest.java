@@ -29,13 +29,6 @@ public class AlertExampleTest {
         driver = new ChromeDriver();
     }
 
-//    @Before
-//    public void navigateToWebPage() {
-//        driver.navigate().to("http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
-//         if (osWin)
-//            driver.manage().window().maximize();
-//    }
-
     @Test
     public void AlertExampleTest() {
         driver.navigate().to("http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
