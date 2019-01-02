@@ -27,6 +27,7 @@ public class AlertExampleTest {
         if (osWin)
             System.setProperty("webdriver.chrome.driver", ConstantsTests.CHROMEDRIVER_PATH);
         driver = new ChromeDriver();
+
     }
 
     @Test
