@@ -20,19 +20,26 @@ import static org.junit.Assert.assertThat;
 
 public class Manipulation {
     static WebDriver driver;
+    static Boolean osWin = false;
     final private String URL = "http://www.practiceselenium.com/practice-form.html";
 
     @BeforeClass
     public static void setupTest() {
-        System.setProperty("webdriver.chrome.driver", ConstantsTests.CHROMEDRIVER_PATH);
+
+        if (System.getProperty("os.name").startsWith("Win")) {
+            osWin = true;
+        }
+
+        if (osWin)
+            System.setProperty("webdriver.chrome.driver", ConstantsTests.CHROMEDRIVER_PATH);
         driver = new ChromeDriver();
     }
 
     @Before
     public void navigateToWebPage() {
         driver.navigate().to(URL);
-        driver.manage().window().maximize();
-    }
+        if (osWin)
+            driver.manage().window().maximize();    }
 
     @Test
     public void T01_radioButtons() {
