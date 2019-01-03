@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0a0560c-4500-47f9-864b-bc50519b07d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/AlertExampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/AlertExampleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/Manipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/Manipulation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/SubmitFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/SubmitFile.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,37 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2309#2310#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/AlertExampleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="48" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="36" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2897#2898#0" expanded="true" />
-                <element signature="e#2926#2927#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="391">
+              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,6 +39,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/Manipulation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java" />
       </list>
     </option>
   </component>
@@ -137,7 +113,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546503538964" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546503639758" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -237,6 +213,14 @@
       <updated>1546455182583</updated>
       <workItem from="1546455185595" duration="693000" />
     </task>
+    <task id="LOCAL-00001" summary="submit file">
+      <created>1546503556166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546503556166</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -257,7 +241,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1500000" />
+    <option name="totallyTimeSpent" value="1601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -307,6 +291,10 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="submit file" />
+    <option name="LAST_COMMIT_MESSAGE" value="submit file" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/ConstantsTests.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -343,16 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/NavigationExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -360,25 +338,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/AlertExampleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="48" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="36" selection-end-column="48" />
+        <state relative-caret-position="170">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/AlertExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1030">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
             <element signature="e#2897#2898#0" expanded="true" />
             <element signature="e#2926#2927#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        <state relative-caret-position="391">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2309#2310#0" expanded="true" />
           </folding>
         </state>
       </provider>
