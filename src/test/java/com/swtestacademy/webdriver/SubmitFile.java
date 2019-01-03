@@ -16,17 +16,26 @@ import static junit.framework.TestCase.assertTrue;
 
 public class SubmitFile {
     static WebDriver driver;
+    static Boolean osWin = false;
 
     @BeforeClass
     public static void setupTest() {
-        System.setProperty("webdriver.chrome.driver", ConstantsTests.CHROMEDRIVER_PATH);
+
+        if (System.getProperty("os.name").startsWith("Win")) {
+            osWin = true;
+        }
+
+        if (osWin)
+            System.setProperty("webdriver.chrome.driver", ConstantsTests.CHROMEDRIVER_PATH);
         driver = new ChromeDriver();
     }
 
     @Before
     public void navigateToWebPage() {
         driver.navigate().to("http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_file");
-        driver.manage().window().maximize();
+
+        if (osWin)
+            driver.manage().window().maximize();
     }
 
     @Test
@@ -38,12 +47,17 @@ public class SubmitFile {
         WebElement submitButton = driver.findElement(By.cssSelector("body > form:nth-child(3) > input[type=\"submit\"]:nth-child(4)"));
 
         //Test file decleration
-//            File testFile = new File(this.getClass().getResource("/test_file.txt").toURI());
-//        File testFile = new File("test_file.txt");
-        File testFile = new File("C:\\Users\\milko.yanakiev\\Documents\\code\\firstSeleniumTest\\src\\main\\resources\\test_file.txt");
+        File testFile;
 
-        //Select test file
-        browseButton.sendKeys(testFile.getAbsolutePath());
+        if (osWin) {
+            testFile = new File("C:\\Users\\milko.yanakiev\\Documents\\code\\firstSeleniumTest\\src\\main\\resources\\test_file.txt");
+
+            //Select test file
+            browseButton.sendKeys(testFile.getAbsolutePath());
+        }
+
+        // todo
+        // If os is Mac change path to file
 
         //Click submit button
         submitButton.click();
