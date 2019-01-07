@@ -4,8 +4,6 @@
     <list default="true" id="c0a0560c-4500-47f9-864b-bc50519b07d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/AlertExampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/AlertExampleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/Manipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/Manipulation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/SubmitFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/SubmitFile.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-843">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -43,10 +38,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,7 +52,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,13 +102,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546503639758" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546852814118" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -133,8 +129,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubmitFile">
-    <configuration name="AlertExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FrameIndexTest.T04_defaultContent">
+    <configuration name="FrameIndexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstSeleniumTest" />
       <extension name="coverage">
         <pattern>
@@ -143,12 +139,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.swtestacademy.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.AlertExampleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.FrameIndexTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertExampleTest.AlertExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FrameIndexTest.T01_byIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstSeleniumTest" />
       <extension name="coverage">
         <pattern>
@@ -157,14 +153,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.swtestacademy.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.AlertExampleTest" />
-      <option name="METHOD_NAME" value="AlertExampleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.FrameIndexTest" />
+      <option name="METHOD_NAME" value="T01_byIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Manipulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FrameIndexTest.T02_byName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstSeleniumTest" />
       <extension name="coverage">
         <pattern>
@@ -173,12 +169,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.swtestacademy.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.Manipulation" />
+      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.FrameIndexTest" />
+      <option name="METHOD_NAME" value="T02_byName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubmitFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FrameIndexTest.T03_byCss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstSeleniumTest" />
       <extension name="coverage">
         <pattern>
@@ -187,17 +185,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.swtestacademy.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.SubmitFile" />
+      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.FrameIndexTest" />
+      <option name="METHOD_NAME" value="T03_byCss" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameIndexTest.T04_defaultContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstSeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swtestacademy.webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.swtestacademy.webdriver" />
+      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.FrameIndexTest" />
+      <option name="METHOD_NAME" value="T04_defaultContent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SubmitFile" />
-        <item itemvalue="JUnit.Manipulation" />
-        <item itemvalue="JUnit.AlertExampleTest" />
-        <item itemvalue="JUnit.AlertExampleTest.AlertExampleTest" />
+        <item itemvalue="JUnit.FrameIndexTest.T04_defaultContent" />
+        <item itemvalue="JUnit.FrameIndexTest.T03_byCss" />
+        <item itemvalue="JUnit.FrameIndexTest" />
+        <item itemvalue="JUnit.FrameIndexTest.T02_byName" />
+        <item itemvalue="JUnit.FrameIndexTest.T01_byIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +229,9 @@
       <option name="presentableId" value="Default" />
       <updated>1546455182583</updated>
       <workItem from="1546455185595" duration="693000" />
+      <workItem from="1546602959637" duration="549000" />
+      <workItem from="1546608284713" duration="177000" />
+      <workItem from="1546850594383" duration="2216000" />
     </task>
     <task id="LOCAL-00001" summary="submit file">
       <created>1546503556166</created>
@@ -220,34 +240,65 @@
       <option name="project" value="LOCAL" />
       <updated>1546503556166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="URL added">
+      <created>1546503676832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546503676832</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AlertExampleTest_AlertExampleTest - 2019.01.02 at 20h 54m 24s.xml">
-      <configuration name="AlertExampleTest.AlertExampleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlertExampleTest - 2019.01.02 at 20h 55m 06s.xml">
-      <configuration name="AlertExampleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Manipulation - 2019.01.02 at 21h 00m 46s.xml">
+    <history-entry file="Manipulation - 2019.01.03 at 17h 15m 26s.xml">
       <configuration name="Manipulation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Manipulation - 2019.01.03 at 10h 11m 12s.xml">
-      <configuration name="Manipulation" configurationId="JUnit" />
+    <history-entry file="com_swtestacademy_webdriver_in_firstSeleniumTest - 2019.01.03 at 17h 17m 14s.xml">
+      <configuration name="com.swtestacademy.webdriver in firstSeleniumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubmitFile - 2019.01.03 at 10h 18m 15s.xml">
-      <configuration name="SubmitFile" configurationId="JUnit" />
+    <history-entry file="FrameIndexTest - 2019.01.07 at 11h 04m 59s.xml">
+      <configuration name="FrameIndexTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrameIndexTest_T01_byIndex - 2019.01.07 at 11h 08m 33s.xml">
+      <configuration name="FrameIndexTest.T01_byIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrameIndexTest_T01_byIndex - 2019.01.07 at 11h 10m 02s.xml">
+      <configuration name="FrameIndexTest.T01_byIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrameIndexTest_T01_byIndex - 2019.01.07 at 11h 10m 27s.xml">
+      <configuration name="FrameIndexTest.T01_byIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrameIndexTest_T02_byName - 2019.01.07 at 11h 12m 45s.xml">
+      <configuration name="FrameIndexTest.T02_byName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrameIndexTest - 2019.01.07 at 11h 13m 04s.xml">
+      <configuration name="FrameIndexTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrameIndexTest_T03_byCss - 2019.01.07 at 11h 16m 39s.xml">
+      <configuration name="FrameIndexTest.T03_byCss" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrameIndexTest_T04_defaultContent - 2019.01.07 at 11h 19m 36s.xml">
+      <configuration name="FrameIndexTest.T04_defaultContent" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1601000" />
+    <option name="totallyTimeSpent" value="10858000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2200489" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18765281" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -256,15 +307,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" sideWeight="0.49938875" visible="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061125" side_tool="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.37737963" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3299363" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -293,19 +344,49 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="submit file" />
-    <option name="LAST_COMMIT_MESSAGE" value="submit file" />
+    <MESSAGE value="URL added" />
+    <option name="LAST_COMMIT_MESSAGE" value="URL added" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FirstAutomationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/ConstantsTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/AlertExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2897#2898#0" expanded="true" />
+            <element signature="e#2926#2927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/NavigationExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/DriverLevelInterrogationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="68">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="e#654#655#0" expanded="true" />
@@ -314,59 +395,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FirstAutomationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/Manipulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="198">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5243#5244#0" expanded="true" />
+            <element signature="e#5272#5273#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/NavigationExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="693">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2272#2273#0" expanded="true" />
             <element signature="e#2301#2302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/AlertExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1030">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#2897#2898#0" expanded="true" />
-            <element signature="e#2926#2927#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-843">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
