@@ -20,25 +20,17 @@ import static org.junit.Assert.assertThat;
 
 public class Manipulation {
     static WebDriver driver;
-    static Boolean osWin = false;
     final private String URL = "http://www.practiceselenium.com/practice-form.html";
 
     @BeforeClass
     public static void setupTest() {
-
-        if (System.getProperty("os.name").startsWith("Win")) {
-            osWin = true;
-        }
-
-        if (osWin)
-            System.setProperty("webdriver.chrome.driver", ConstantsTests.CHROMEDRIVER_PATH);
-        driver = new ChromeDriver();
+        driver = SetupTest.setupDriver();
     }
 
     @Before
     public void navigateToWebPage() {
         driver.navigate().to(URL);
-        if (osWin)
+        if ("windows".equals(SetupTest.checkOs()))
             driver.manage().window().maximize();    }
 
     @Test

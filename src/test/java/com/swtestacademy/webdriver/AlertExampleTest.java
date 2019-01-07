@@ -1,13 +1,11 @@
 package com.swtestacademy.webdriver;
 
 import org.junit.AfterClass;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
@@ -15,25 +13,16 @@ import static org.junit.Assert.assertThat;
 public class AlertExampleTest {
 
     static WebDriver driver;
-    static Boolean osWin = false;
 
     @BeforeClass
     public static void setupTest() {
-
-        if (System.getProperty("os.name").startsWith("Win")) {
-            osWin = true;
-        }
-
-        if (osWin)
-            System.setProperty("webdriver.chrome.driver", ConstantsTests.CHROMEDRIVER_PATH);
-        driver = new ChromeDriver();
-
+        driver = SetupTest.setupDriver();
     }
 
     @Test
     public void AlertExampleTest() {
         driver.navigate().to("http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
-        if (osWin)
+        if ("windows".equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.switchTo().frame("iframeResult");
 
@@ -54,7 +43,7 @@ public class AlertExampleTest {
     @Test
     public void ConfirmExampleTest() {
         driver.get("http://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm");
-        if (osWin)
+        if ("windows".equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.switchTo().frame("iframeResult");
 
@@ -73,7 +62,7 @@ public class AlertExampleTest {
     @Test
     public void PromptExampleTest() {
         driver.get("http://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt");
-        if (osWin)
+        if ("windows".equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.switchTo().frame("iframeResult");
 
