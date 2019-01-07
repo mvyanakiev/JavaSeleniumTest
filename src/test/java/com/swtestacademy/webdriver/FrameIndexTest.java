@@ -6,7 +6,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
@@ -15,24 +14,16 @@ import static org.junit.Assert.assertThat;
 public class FrameIndexTest {
 
     static WebDriver driver;
-    static Boolean osWin = false;
     private final String testUrl = "http://www.londonfreelance.org/courses/frames/index.html";
 
     @BeforeClass
     public static void setupTest() {
-
-        if (System.getProperty("os.name").startsWith("Win")) {
-            osWin = true;
-        }
-
-        if (osWin)
-            System.setProperty("webdriver.chrome.driver", ConstantsTests.CHROMEDRIVER_PATH);
-        driver = new ChromeDriver();
+       driver = SetupTest.setupDriver();
     }
 
     @Test
     public void T01_byIndex(){
-        if(osWin)
+        if ("windows".equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.navigate().to(testUrl);
 
@@ -43,7 +34,7 @@ public class FrameIndexTest {
 
     @Test
     public void T02_byName(){
-        if(osWin)
+        if ("windows".equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.navigate().to(testUrl);
 
@@ -54,7 +45,7 @@ public class FrameIndexTest {
 
     @Test
     public void T03_byCss(){
-        if(osWin)
+        if ("windows".equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.navigate().to(testUrl);
 
@@ -67,7 +58,7 @@ public class FrameIndexTest {
 
     @Test
     public void T04_defaultContent(){
-        if(osWin)
+        if ("windows".equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.navigate().to(testUrl);
 
