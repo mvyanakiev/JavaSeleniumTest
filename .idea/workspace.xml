@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a0560c-4500-47f9-864b-bc50519b07d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/AlertExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/AlertExampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/ConstantsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/ConstantsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/Manipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/Manipulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SetupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SetupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/ConstantsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/ConstantsTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/SubmitFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/SubmitFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/WindowHandlesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/WindowHandlesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/AlertExampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/AlertExampleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/Manipulation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/swtestacademy/webdriver/Manipulation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +15,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/WindowHandlesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="68" column="5" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="68" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#2243#2244#0" expanded="true" />
+                <element signature="e#2272#2273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,13 +71,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/WindowHandlesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/ConstantsTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/AlertExampleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/FrameIndexTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/Manipulation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SetupTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/WindowHandlesTest.java" />
       </list>
     </option>
   </component>
@@ -117,14 +145,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546934824130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546962200139" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -144,21 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubmitFile.SubmitFileTest">
-    <configuration name="AlertExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="firstSeleniumTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.swtestacademy.webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.swtestacademy.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.AlertExampleTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WindowHandlesTest.WindowHandleTest">
     <configuration name="FrameIndexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstSeleniumTest" />
       <extension name="coverage">
@@ -187,20 +201,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubmitFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="firstSeleniumTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.swtestacademy.webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.swtestacademy.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.SubmitFile" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SubmitFile.SubmitFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstSeleniumTest" />
       <extension name="coverage">
@@ -217,13 +217,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WindowHandlesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstSeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swtestacademy.webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.swtestacademy.webdriver" />
+      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.WindowHandlesTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowHandlesTest.WindowHandleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstSeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swtestacademy.webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.swtestacademy.webdriver" />
+      <option name="MAIN_CLASS_NAME" value="com.swtestacademy.webdriver.WindowHandlesTest" />
+      <option name="METHOD_NAME" value="WindowHandleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WindowHandlesTest.WindowHandleTest" />
+        <item itemvalue="JUnit.WindowHandlesTest" />
         <item itemvalue="JUnit.SubmitFile.SubmitFileTest" />
         <item itemvalue="JUnit.Manipulation" />
         <item itemvalue="JUnit.FrameIndexTest" />
-        <item itemvalue="JUnit.AlertExampleTest" />
-        <item itemvalue="JUnit.SubmitFile" />
       </list>
     </recent_temporary>
   </component>
@@ -241,6 +271,8 @@
       <workItem from="1546602959637" duration="549000" />
       <workItem from="1546608284713" duration="177000" />
       <workItem from="1546850594383" duration="7300000" />
+      <workItem from="1546935041765" duration="58000" />
+      <workItem from="1546959492768" duration="2706000" />
     </task>
     <task id="LOCAL-00001" summary="submit file">
       <created>1546503556166</created>
@@ -277,43 +309,50 @@
       <option name="project" value="LOCAL" />
       <updated>1546856612305</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="const mac &amp; win">
+      <created>1546934842584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546934842584</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SubmitFile - 2019.01.08 at 06h 40m 03s.xml">
-      <configuration name="SubmitFile" configurationId="JUnit" />
+    <history-entry file="WindowHandlesTest_WindowHandleTest - 2019.01.08 at 17h 30m 01s.xml">
+      <configuration name="WindowHandlesTest.WindowHandleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubmitFile - 2019.01.08 at 06h 40m 37s.xml">
-      <configuration name="SubmitFile" configurationId="JUnit" />
+    <history-entry file="WindowHandlesTest_WindowHandleTest - 2019.01.08 at 17h 31m 31s.xml">
+      <configuration name="WindowHandlesTest.WindowHandleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubmitFile - 2019.01.08 at 06h 41m 18s.xml">
-      <configuration name="SubmitFile" configurationId="JUnit" />
+    <history-entry file="WindowHandlesTest_WindowHandleTest - 2019.01.08 at 17h 32m 05s.xml">
+      <configuration name="WindowHandlesTest.WindowHandleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubmitFile - 2019.01.08 at 06h 44m 28s.xml">
-      <configuration name="SubmitFile" configurationId="JUnit" />
+    <history-entry file="WindowHandlesTest_WindowHandleTest - 2019.01.08 at 17h 32m 53s.xml">
+      <configuration name="WindowHandlesTest.WindowHandleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubmitFile - 2019.01.08 at 06h 46m 46s.xml">
-      <configuration name="SubmitFile" configurationId="JUnit" />
+    <history-entry file="WindowHandlesTest_WindowHandleTest - 2019.01.08 at 17h 35m 27s.xml">
+      <configuration name="WindowHandlesTest.WindowHandleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlertExampleTest - 2019.01.08 at 09h 54m 50s.xml">
-      <configuration name="AlertExampleTest" configurationId="JUnit" />
+    <history-entry file="WindowHandlesTest_WindowHandleTest - 2019.01.08 at 17h 36m 06s.xml">
+      <configuration name="WindowHandlesTest.WindowHandleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlertExampleTest - 2019.01.08 at 09h 58m 05s.xml">
-      <configuration name="AlertExampleTest" configurationId="JUnit" />
+    <history-entry file="WindowHandlesTest_WindowHandleTest - 2019.01.08 at 17h 37m 07s.xml">
+      <configuration name="WindowHandlesTest.WindowHandleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FrameIndexTest - 2019.01.08 at 09h 59m 22s.xml">
-      <configuration name="FrameIndexTest" configurationId="JUnit" />
+    <history-entry file="WindowHandlesTest - 2019.01.08 at 17h 38m 23s.xml">
+      <configuration name="WindowHandlesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Manipulation - 2019.01.08 at 10h 00m 42s.xml">
-      <configuration name="Manipulation" configurationId="JUnit" />
+    <history-entry file="WindowHandlesTest_WindowHandleTest - 2019.01.08 at 17h 39m 05s.xml">
+      <configuration name="WindowHandlesTest.WindowHandleTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubmitFile_SubmitFileTest - 2019.01.08 at 10h 05m 16s.xml">
-      <configuration name="SubmitFile.SubmitFileTest" configurationId="JUnit" />
+    <history-entry file="WindowHandlesTest_WindowHandleTest - 2019.01.08 at 17h 39m 57s.xml">
+      <configuration name="WindowHandlesTest.WindowHandleTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18093000" />
+    <option name="totallyTimeSpent" value="20929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,8 +365,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19254279" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19743276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -336,11 +376,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281075" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49938875" weight="0.32866243" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49938875" weight="0.3281075" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -376,7 +416,8 @@
     <MESSAGE value="URL added" />
     <MESSAGE value="FrameIndexTest" />
     <MESSAGE value="setup test optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup test optimized" />
+    <MESSAGE value="const mac &amp; win" />
+    <option name="LAST_COMMIT_MESSAGE" value="const mac &amp; win" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/DriverLevelInterrogationTest.java">
@@ -438,10 +479,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/ConstantsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SetupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2272#2273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/WindowHandlesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="323">
+          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#353#354#0" expanded="true" />
@@ -449,35 +521,6 @@
             <element signature="e#531#532#0" expanded="true" />
             <element signature="e#560#561#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SubmitFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/SetupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/swtestacademy/webdriver/ConstantsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
