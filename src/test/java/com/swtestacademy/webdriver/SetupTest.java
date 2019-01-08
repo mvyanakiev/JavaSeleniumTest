@@ -5,14 +5,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SetupTest {
 
-    public static String checkOs(){
+    public static String checkOs() {
         String osType = "unknown";
         String type = System.getProperty("os.name").toLowerCase();
 
         if (type.startsWith("win")) {
-            osType = "windows";
+            osType = ConstantsTests.OS_WINDOWS;
         } else if (type.startsWith("mac")) {
-            osType = "mac";
+            osType = ConstantsTests.OS_MAC;
         }
 
         return osType;
@@ -21,7 +21,7 @@ public class SetupTest {
     public static WebDriver setupDriver() {
         WebDriver driver;
 
-        if ("windows".equals(checkOs())) {
+        if (ConstantsTests.OS_WINDOWS.equals(SetupTest.checkOs())) {
             System.setProperty("webdriver.chrome.driver", ConstantsTests.CHROMEDRIVER_PATH);
         }
         return new ChromeDriver();

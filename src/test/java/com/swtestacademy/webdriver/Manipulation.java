@@ -30,7 +30,7 @@ public class Manipulation {
     @Before
     public void navigateToWebPage() {
         driver.navigate().to(URL);
-        if ("windows".equals(SetupTest.checkOs()))
+        if (ConstantsTests.OS_WINDOWS.equals(SetupTest.checkOs()))
             driver.manage().window().maximize();    }
 
     @Test

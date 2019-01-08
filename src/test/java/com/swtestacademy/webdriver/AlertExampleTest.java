@@ -22,7 +22,7 @@ public class AlertExampleTest {
     @Test
     public void AlertExampleTest() {
         driver.navigate().to("http://www.w3schools.com/js/tryit.asp?filename=tryjs_alert");
-        if ("windows".equals(SetupTest.checkOs()))
+        if (ConstantsTests.OS_WINDOWS.equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.switchTo().frame("iframeResult");
 
@@ -43,7 +43,7 @@ public class AlertExampleTest {
     @Test
     public void ConfirmExampleTest() {
         driver.get("http://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm");
-        if ("windows".equals(SetupTest.checkOs()))
+        if (ConstantsTests.OS_WINDOWS.equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.switchTo().frame("iframeResult");
 
@@ -62,7 +62,7 @@ public class AlertExampleTest {
     @Test
     public void PromptExampleTest() {
         driver.get("http://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt");
-        if ("windows".equals(SetupTest.checkOs()))
+        if (ConstantsTests.OS_WINDOWS.equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.switchTo().frame("iframeResult");
 

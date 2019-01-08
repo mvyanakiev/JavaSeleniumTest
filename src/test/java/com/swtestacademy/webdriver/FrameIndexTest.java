@@ -23,7 +23,7 @@ public class FrameIndexTest {
 
     @Test
     public void T01_byIndex(){
-        if ("windows".equals(SetupTest.checkOs()))
+        if (ConstantsTests.OS_WINDOWS.equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.navigate().to(testUrl);
 
@@ -34,7 +34,7 @@ public class FrameIndexTest {
 
     @Test
     public void T02_byName(){
-        if ("windows".equals(SetupTest.checkOs()))
+        if (ConstantsTests.OS_WINDOWS.equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.navigate().to(testUrl);
 
@@ -45,7 +45,7 @@ public class FrameIndexTest {
 
     @Test
     public void T03_byCss(){
-        if ("windows".equals(SetupTest.checkOs()))
+        if (ConstantsTests.OS_WINDOWS.equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.navigate().to(testUrl);
 
@@ -58,7 +58,7 @@ public class FrameIndexTest {
 
     @Test
     public void T04_defaultContent(){
-        if ("windows".equals(SetupTest.checkOs()))
+        if (ConstantsTests.OS_WINDOWS.equals(SetupTest.checkOs()))
             driver.manage().window().maximize();
         driver.navigate().to(testUrl);
 

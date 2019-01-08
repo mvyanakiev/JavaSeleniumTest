@@ -40,9 +40,9 @@ public class SubmitFile {
         //Test file deceleration
         File testFile = null;
 
-        if ("windows".equals(SetupTest.checkOs())) {
+        if (ConstantsTests.OS_WINDOWS.equals(SetupTest.checkOs())) {
             testFile = new File("C:\\Users\\milko.yanakiev\\Documents\\code\\firstSeleniumTest\\src\\main\\resources\\test_file.txt");
-        } else if ("mac".equals(SetupTest.checkOs())) {
+        } else if (ConstantsTests.OS_MAC.equals(SetupTest.checkOs())) {
             testFile = new File("/Users/milko/Documents/GitHub/JavaSeleniumTest/src/main/resources/test_file.txt");
         }
 
