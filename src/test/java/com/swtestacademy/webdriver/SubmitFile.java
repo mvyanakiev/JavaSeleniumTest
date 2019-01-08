@@ -30,7 +30,7 @@ public class SubmitFile {
     }
 
     @Test
-    public void SubmitFileTest() throws URISyntaxException {
+    public void SubmitFileTest() throws URISyntaxException, InterruptedException {
         driver.switchTo().frame("iframeResult");
 
         //Find the elements
@@ -43,22 +43,24 @@ public class SubmitFile {
         if ("windows".equals(SetupTest.checkOs())) {
             testFile = new File("C:\\Users\\milko.yanakiev\\Documents\\code\\firstSeleniumTest\\src\\main\\resources\\test_file.txt");
         } else if ("mac".equals(SetupTest.checkOs())) {
-            // todo -> If os is Mac change path to file
-            testFile = new File("C:\\Users\\milko.yanakiev\\Documents\\code\\firstSeleniumTest\\src\\main\\resources\\test_file.txt");
+            testFile = new File("/Users/milko/Documents/GitHub/JavaSeleniumTest/src/main/resources/test_file.txt");
         }
 
 
         //Select test file
         browseButton.sendKeys(testFile.getAbsolutePath());
 
-
         //Click submit button
         submitButton.click();
+
+        Thread.sleep(1000);
 
         //Check the result
         WebElement resultText = driver.findElement(By.cssSelector("body > div.w3-container.w3-large.w3-border"));
         System.out.println("resulttext: " + resultText.getText());
         assertTrue("test_file.txt is not submitted!", resultText.getText().contains("test_file"));
+
+
     }
 
     @AfterClass

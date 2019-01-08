@@ -11,7 +11,10 @@ public class SetupTest {
 
         if (type.startsWith("win")) {
             osType = "windows";
+        } else if (type.startsWith("mac")) {
+            osType = "mac";
         }
+
         return osType;
     }
 
