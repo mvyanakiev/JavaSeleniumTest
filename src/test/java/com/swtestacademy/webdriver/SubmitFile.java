@@ -57,7 +57,7 @@ public class SubmitFile {
 
         //Check the result
         WebElement resultText = driver.findElement(By.cssSelector("body > div.w3-container.w3-large.w3-border"));
-        System.out.println("resulttext: " + resultText.getText());
+        System.out.println("Result Text: " + resultText.getText());
         assertTrue("test_file.txt is not submitted!", resultText.getText().contains("test_file"));
 
 
