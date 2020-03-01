@@ -35,7 +35,7 @@ public class WindowHandlesTest {
         visitLink.click();
 
         Set<String> windowHandles = driver.getWindowHandles();
-        List<String> windowHandlesList = new ArrayList<>(windowHandles);
+        List<String> windowHandlesList = new ArrayList<String>(windowHandles);
 
         System.out.println("Total window number: " + windowHandlesList.size());
 
